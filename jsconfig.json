@@ -1,7 +1,20 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["app/*"],
+      "@styles/*": ["app/styles/*"],
+      "@pages/*": ["app/pages/*"],
+      "@utils/*": ["app/utils/*"],
+      "@routes/*": ["app/routes/*"],
+      "@redux/*": ["app/redux/*"],
+      "@constants/*": ["app/constants/*"],
+      "@components/*": ["app/components/*"],
+      "@fonts/*": ["app/assets/fonts/*"],
+      "@icons/*": ["app/assets/icons/*"],
+      "@images/*": ["app/assets/images/*"],
+      "@svg/*": ["app/assets/svg/*"],
+      "@commonComp/*": ["app/components/common/*"]
     }
   }
 }
