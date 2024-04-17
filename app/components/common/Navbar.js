@@ -1,28 +1,25 @@
 "use client";
 import Link from "next/link";
-import styles from "@styles/Navbar.module.css";
+import styles from "../../styles/Navbar.module.css";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className="logo">
         <Link href="/">
-          <span style={{ color: "yellow", fontSize: 25, fontWeight: "700" }}>
-            {"<"}
-          </span>
-          <span style={{ color: "thistle", fontSize: 30, fontWeight: "700" }}>
-            {"wrack"}
-          </span>
-          <span style={{ color: "yellow", fontSize: 25, fontWeight: "700" }}>
-            {"/>"}
-          </span>
+          <img
+            src={"signature.png"}
+            width="180px"
+            height="180px"
+            alt="Dynamic Image"
+          />
         </Link>
       </div>
       <div className={styles.navLinks}>
-        <Link href="/button1">_home</Link>
-        <Link href="/button2">_projects</Link>
-        <Link href="/button3">_blogs</Link>
-        <Link href="/button4">_experiences</Link>
-        <Link href="/button5">_skills</Link>
+        <Link href="/button1">Home</Link>
+        <Link href="/button2">Projects</Link>
+        <Link href="/button3">Blogs</Link>
+        <Link href="/button4">Experiences</Link>
+        <Link href="/button5">Skills</Link>
 
         <button className={styles.resumeBtn}>resume</button>
         <img

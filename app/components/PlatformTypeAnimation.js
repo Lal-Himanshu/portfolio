@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@styles/main.module.css";
+import styles from "../styles/main.module.css";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 function PlatformTypeAnimation() {
   const [text] = useTypewriter({
@@ -9,7 +9,8 @@ function PlatformTypeAnimation() {
   });
   return (
     <p className={styles.platforms}>
-      I build things for <span style={{ color: "#FFC83D" }}> {text}</span>
+      I build things for{" "}
+      <span style={{ color: "#FFC83D", fontSize: 30 }}> {text}</span>
       <Cursor cursorStyle={"_"} />
     </p>
   );

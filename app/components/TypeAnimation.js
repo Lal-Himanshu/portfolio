@@ -11,6 +11,9 @@ const TypeAnimation = ({ strings }) => {
         loop: true,
         deleteSpeed: 60,
         cursor: "_",
+        css: `
+          color: #FFC83D; // Change this to the desired color code
+        `,
       }}
     />
   );
