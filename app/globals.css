@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+.side-icon {
+  height: 20px;
+  width: 20px;
+  mix-blend-mode: difference;
+  /* fill: red; */
+  path {
+    fill: white;
+  }
+
+  &:hover {
+    opacity: 0.4;
+  }
+}
+/* .social-icons-container a {
+  mix-blend-mode: difference;
+} */

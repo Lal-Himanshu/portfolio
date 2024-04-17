@@ -9,17 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@tsparticles/react": "^3.0.0",
     "framer-motion": "^10.12.5-alpha.1",
-    "next": "14.1.4",
+    "next": "^14.2.1",
     "react": "^18",
     "react-dom": "^18",
     "react-simple-typewriter": "^5.0.1",
+    "react-terminal-ui": "^1.2.0",
+    "react-transition-group": "^4.4.5",
     "react-type-animation": "^3.2.0",
     "tsparticles": "^3.3.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.4",

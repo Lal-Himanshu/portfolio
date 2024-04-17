@@ -1,0 +1,40 @@
+.recruitmentNotifier {
+  font-size: 2em;
+  color: white;
+  padding: 0.5em;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.notificationStatus {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 1em;
+  background: #ff0000;
+  box-shadow: 0 0 0.5em #ff0000;
+  display: inline-block;
+  margin-right: 0.5em;
+  animation: lightFlash 1s infinite;
+}
+
+@keyframes lightFlash {
+  49% {
+    background: #ff0000;
+    box-shadow: 0 0 0.5em #ff0000;
+  }
+  50% {
+    box-shadow: 0 0 0 transparent;
+    background: darken(#ff0000, 30%);
+  }
+  70% {
+    box-shadow: 0 0 0 transparent;
+    background: darken(#ff0000, 30%);
+  }
+  71% {
+    background: #ff0000;
+    box-shadow: 0 0 0.5em #ff0000;
+  }
+}

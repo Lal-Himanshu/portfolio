@@ -54,17 +54,30 @@ const ParticleBackground = () => {
               },
               modes: {
                 push: {
-                  quantity: 4,
+                  quantity: 0,
                 },
                 repulse: {
-                  distance: 200,
+                  distance: 150,
                   duration: 0.4,
+                },
+                grab: {
+                  distance: 200,
+                  line_linked: {
+                    opacity: 1,
+                  },
                 },
               },
             },
             particles: {
               color: {
-                value: "#ffffff",
+                value: [
+                  "c912ed",
+                  "00bfff",
+                  "22dd22",
+                  "ffd500",
+                  "ff8000",
+                  "ff2600",
+                ],
               },
               links: {
                 color: "#ffffff",
@@ -93,7 +106,7 @@ const ParticleBackground = () => {
                   enable: true,
                   area: 800,
                 },
-                value: 80,
+                value: 40,
               },
               opacity: {
                 value: 0.5,
